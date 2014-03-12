@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Style -->
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/prism.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <header class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">{{ site.name }}</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/">Guides</a></li>
+            <li><a href="/newsletter">Newsletter</a></li>
+            <li><a href="http://shop.coinrigs.org">Shop</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Prism (neccessary for Prism.js code highlighter-->
+    <script src="/js/prism.js"></script>
+
+    <footer>
+      <div class="container">
+        <p class="text-muted">Content for Guides are licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 License</a>.<br> All other text &amp; design is copyright &copy; 2014 Coin Rigs. All rights reserved.</p>
+        <p class="text-muted"><a href="mailto:hello@coinrigs.org">Email us</a> or follow <a href="http://twitter.com/coinrigs">@coinrigs</a> on Twitter.</p>
+      </div>
+    </footer>
+  </body>
+</html>

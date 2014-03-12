@@ -1,1 +1,26 @@
-Hello World
+---
+layout: default
+title: Coin Rigs
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <header>
+          <h1>Guides</h1>
+          <p>Getting started with cryptocurrency and mining shouldn't be hard. These guides are designed to help you understand the technology and be apart of an amazing community.</p>
+      </header>
+      <hr>
+      <ul class="guides">
+        {% for post in site.posts reversed %}
+          <li>
+          <i>{{ post.guideid }}</i>
+          <a href="{{ post.url}}">
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.summary }}</p>
+          </a>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

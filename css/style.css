@@ -1,0 +1,232 @@
+body {
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6em;
+  margin: 0 0 14px;
+}
+
+pre {
+  padding: 0.8em;
+  margin: 2em 0;
+  background-color: #272822;
+  color: #fff;
+  border: none;
+}
+
+.navbar-brand {
+  font-size: 28px;
+}
+
+.navbar-nav li a {
+  font-size: 20px;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 120px;
+    height: 120px;
+    padding-top: 0;
+}
+
+.navbar-nav li a:hover {
+  text-decoration: underline;
+}
+
+
+.navbar-inverse {
+  background-color: #7adffd;
+  border-color: #7adffd;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-text {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #4DBCE9;
+}
+
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #333;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #333;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #101010;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #4DBCE9;
+}
+
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #4DBCE9;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #4DBCE9;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #999;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #4DBCE9;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444;
+    background-color: transparent;
+  }
+}
+
+.navbar-inverse .navbar-link {
+  color: #999;
+}
+
+.navbar-inverse .navbar-link:hover {
+  color: #fff;
+}
+
+.guides {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.guides li {
+  padding: 1.5em 0;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.guides li:last-child {
+  border-bottom: 0;
+}
+
+.guides li i {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-color: #d0d0d0;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2em;
+  color: #fff;
+  line-height: 70px;
+  font-style: normal;
+  font-weight: bold;
+  border-radius: 70px;
+  transition: 0.10s background-color ease-in;
+  -webkit-transition: 0.10s background-color ease-in;
+  -moz-transition: 0.10s background-color ease-in;
+}
+
+.guides li:hover i {
+  background-color: #FFD402;
+  transition: 0.09s background-color ease-in;
+  -webkit-transition: 0.09s background-color ease-in;
+  -moz-transition: 0.09s background-color ease-in;
+}
+
+.guides a,
+.guides a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.guides h3 {
+  margin: 0 0 0.5em;
+  margin-left: 90px;
+  color: #29A2CF;
+}
+
+.guides li:hover h3 {
+  text-decoration: underline;
+}
+
+.guides p {
+  font-size: 18px;
+  margin-left: 90px;
+}
+
+.alert-wip {
+  background-color: #FAFD8C;
+  border-color: #FFFC66;
+  color: #8a6d3b;
+}
+
+.post header {
+  margin-bottom: 25px;
+}
+
+footer {
+  color: #666;
+  overflow: hidden;
+  width: 100%;
+  padding: 40px 0;
+  line-height: 1.5;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+}
