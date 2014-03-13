@@ -218,6 +218,13 @@ pre {
   margin-bottom: 25px;
 }
 
+
+.shopad {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+}
+
 footer {
   color: #666;
   overflow: hidden;

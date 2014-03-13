@@ -3,13 +3,24 @@ layout: default
 title: Coin Rigs
 ---
 
-<div class="container">
+  <section class="container guides-header">
+    <div class="row">
+      <div class="col-sm-7">
+        <h1>Guides</h1>
+        <p>Getting started with cryptocurrency and mining shouldn't be hard. These guides are designed to help you understand the technology and be apart of an amazing community.</p>
+      </div>
+      <div class="col-sm-5">
+        <div class="shopad-container">
+          <div class="shopad">
+            <a href="http://shop.coinrigs.org", title="Mining contracts for sale"><img src="/images/coin-rig-shop-banner.gif" alt="Mining contract shop"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container guides-list">
   <div class="row">
     <div class="col-sm-12">
-      <header>
-          <h1>Guides</h1>
-          <p>Getting started with cryptocurrency and mining shouldn't be hard. These guides are designed to help you understand the technology and be apart of an amazing community.</p>
-      </header>
       <hr>
       <ul class="guides">
         {% for post in site.posts reversed %}
@@ -23,4 +34,4 @@ title: Coin Rigs
       </ul>
     </div>
   </div>
-</div>
+</section>
